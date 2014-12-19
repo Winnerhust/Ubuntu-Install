@@ -1,6 +1,8 @@
 #Ubunbut Install Shell
 # change sources
-#sudo cp  /etc/apt/sources.list /etc/apt/sources.list.old
+wget https://github.com/Winnerhust/Ubuntu-Install/blob/master/sources.list
+sudo cp  /etc/apt/sources.list /etc/apt/sources.list.old
+sudo cp  sources.list /etc/apt/sources.list
 
 sudo apt-get update
 
@@ -8,6 +10,7 @@ sudo apt-get update
 sudo apt-get install openssh-server
 /etc/init.d/ssh restart
 
+# install useful app
 sudo apt-get install g++
 sudo apt-get install flex
 sudo apt-get install bison
