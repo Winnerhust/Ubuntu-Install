@@ -1,4 +1,10 @@
 #Ubunbut Install Shell
+#Load install shell script
+#本段可能需要手动执行
+wget https://github.com/Winnerhust/Ubuntu-Install/edit/master/install.sh
+grep td install.sh |sed -e 's/<[^>]*>//g' >real_install.sh
+move real_install.sh install.sh
+
 # change sources
 #本段可能需要手动执行
 wget https://github.com/Winnerhust/Ubuntu-Install/blob/master/sources.list #html file
