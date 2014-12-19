@@ -1,0 +1,7 @@
+##163
+deb http://mirrors.163.com/ubuntu/ saucy main universe restricted multiverse
+deb-src http://mirrors.163.com/ubuntu/ saucy main universe restricted multiverse #Added by software-properties
+deb http://security.ubuntu.com/ubuntu/ saucy-security main restricted multiverse universe
+deb http://mirrors.163.com/ubuntu/ saucy-updates main restricted multiverse universe
+deb http://mirrors.163.com/ubuntu/ saucy-proposed main restricted multiverse universe
+deb http://mirrors.163.com/ubuntu/ saucy-backports main restricted multiverse universe
