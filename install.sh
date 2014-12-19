@@ -1,9 +1,9 @@
 #Ubunbut Install Shell
 # change sources
+#本段可能需要手动执行
 wget https://github.com/Winnerhust/Ubuntu-Install/blob/master/sources.list #html file
 echo "#163" >real_sources.list
 egrep "deb( |-)" sources.list |sed -e 's/<[^>]*>//g' >>real_sources.list
-
 sudo cp  /etc/apt/sources.list /etc/apt/sources.list.old #back up
 sudo cp  real_sources.list /etc/apt/sources.list
 
