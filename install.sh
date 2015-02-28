@@ -44,3 +44,4 @@ sudo apt-get install openjdk-7-jre
 
 #wget http://mirror.bit.edu.cn/apache/hbase/stable/hbase-0.98.8-hadoop2-bin.tar.gz
 #tar -xvf hbase-0.98.8-hadoop2-bin.tar.gz 
+
