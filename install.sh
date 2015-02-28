@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install openssh-server
 /etc/init.d/ssh restart
 
-# install useful app
+#  install useful app
 sudo apt-get install g++
 sudo apt-get install flex
 sudo apt-get install bison
