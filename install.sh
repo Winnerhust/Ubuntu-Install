@@ -29,6 +29,7 @@ sudo apt-get install gdb
 sudo apt-get install vim
 sudo apt-get install valgrind
 sudo apt-get install make
+sudo apt-get install astyle
 
 sudo apt-get install zip
 sudo apt-get install libmysqlclient-dev 
